@@ -1,0 +1,63 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083B4C;   
+}
+
+header {
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+main {
+    display: flex;
+
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+    height: 100vh;
+    /* background-color: bisque; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.squareContainer {
+    aspect-ratio: 1;
+    width: calc(100%/7);
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: white;
+    border: 1px solid black;
+}
+
+/* classificazione dei colori dei quadrati */
+.fizzbuzz {
+    background-color: #F0466F;
+}
+.fizz {
+    background-color: #0BD6A1;
+}
+.buzz {
+    background-color: #FFD166;
+}
+.default {
+    background-color: #1389B2;
+}
